@@ -177,3 +177,8 @@ hi link pythonDocstring Comment
 hi link pythonSpecial   Boolean
 hi link pythonDecorator Type
 hi link pythonMagic     function
+
+" PLUGINS --------------------------------------------------------------------
+
+hi AleErrorSign   guibg=#31363b guifg=#f67400 gui=NONE
+hi AleWarningSign guibg=#31363b guifg=#fdbc4b gui=NONE
