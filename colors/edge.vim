@@ -156,3 +156,24 @@ hi link markdownOrderedListMarker Statement
 hi link markdownListMarker        Statement
 hi link markdownBlockquote        Special
 hi link markdownRule              Special
+
+" python ---------------------------------------------------------------------
+
+hi pythonOperator  guibg=NONE guifg=NONE    gui=bold
+hi pythonStatement guibg=NONE guifg=#fdbc4b gui=bold
+hi pythonBuiltin   guibg=NONE guifg=#7f8c8d gui=NONE
+
+hi link pythonImport      PreProc
+hi link pythonConditional pythonStatement
+hi link pythonRepeat      pythonStatement
+hi link pythonException   pythonStatement
+hi link pythonFunction    Normal
+hi link pythonExceptions  PreProc
+
+" custom:
+hi pythonDef guibg=NONE guifg=NONE gui=bold
+
+hi link pythonDocstring Comment
+hi link pythonSpecial   Boolean
+hi link pythonDecorator Type
+hi link pythonMagic     function
