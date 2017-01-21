@@ -23,7 +23,7 @@ hi Identifier    guibg=NONE    guifg=#8e44ad gui=NONE
 hi Ignore        guibg=NONE    guifg=NONE    gui=NONE
 hi PreProc       guibg=NONE    guifg=#27ae60 gui=NONE
 hi Special       guibg=NONE    guifg=#3daee9 gui=NONE
-hi Statement     guibg=NONE    guifg=#fdbc4b gui=NONE
+hi Statement     guibg=NONE    guifg=#fdbc4b gui=bold
 hi String        guibg=NONE    guifg=#f44f4f gui=NONE
 hi Todo          guibg=NONE    guifg=NONE    gui=reverse
 hi Type          guibg=NONE    guifg=#2980b9 gui=NONE
@@ -160,13 +160,10 @@ hi link markdownRule              Special
 " python ---------------------------------------------------------------------
 
 hi pythonOperator  guibg=NONE guifg=NONE    gui=bold
-hi pythonStatement guibg=NONE guifg=#fdbc4b gui=bold
 hi pythonBuiltin   guibg=NONE guifg=#7f8c8d gui=NONE
 
 hi link pythonImport      PreProc
 hi link pythonConditional pythonStatement
-hi link pythonRepeat      pythonStatement
-hi link pythonException   pythonStatement
 hi link pythonFunction    Normal
 hi link pythonExceptions  PreProc
 
