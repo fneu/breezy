@@ -14,20 +14,22 @@ hi Folded        guibg=#31363b guifg=#7a7c7d gui=NONE
 hi MatchParen    guibg=#8e44ad guifg=#cfcfc2 gui=NONE
 hi signColumn    guibg=#31363b guifg=#7a7c7d gui=NONE
 
-hi Comment       guibg=NONE    guifg=#7a7c7d gui=NONE
-hi Conceal       guibg=NONE    guifg=#cfcfc2 gui=NONE
-hi Constant      guibg=NONE    guifg=#f67400 gui=NONE
-hi Boolean       guibg=NONE    guifg=#27aeae gui=NONE
-hi Error         guibg=#4d1f24 guifg=#95da4c gui=bold
-hi Identifier    guibg=NONE    guifg=#8e44ad gui=NONE
-hi Ignore        guibg=NONE    guifg=NONE    gui=NONE
-hi PreProc       guibg=NONE    guifg=#27ae60 gui=NONE
-hi Special       guibg=NONE    guifg=#3daee9 gui=NONE
-hi Statement     guibg=NONE    guifg=#fdbc4b gui=bold
-hi String        guibg=NONE    guifg=#f44f4f gui=NONE
-hi Todo          guibg=#451e1a guifg=#ca9219 gui=NONE
-hi Type          guibg=NONE    guifg=#2980b9 gui=NONE
-hi Underlined    guibg=NONE    guifg=#27ae60 gui=underline
+hi Comment        guibg=NONE    guifg=#7a7c7d gui=NONE
+hi Conceal        guibg=NONE    guifg=#cfcfc2 gui=NONE
+hi Constant       guibg=NONE    guifg=#f67400 gui=NONE
+hi Boolean        guibg=NONE    guifg=#27aeae gui=NONE
+hi Error          guibg=#4d1f24 guifg=#95da4c gui=bold
+hi Identifier     guibg=NONE    guifg=#8e44ad gui=NONE
+hi Ignore         guibg=NONE    guifg=NONE    gui=NONE
+hi Operator       guibg=NONE    guifg=NONE    gui=bold
+hi PreProc        guibg=NONE    guifg=#27ae60 gui=NONE
+hi Special        guibg=NONE    guifg=#3daee9 gui=NONE
+hi SpecialComment guibg=NONE    guifg=#a5a6a8 gui=NONE
+hi Statement      guibg=NONE    guifg=#fdbc4b gui=bold
+hi String         guibg=NONE    guifg=#f44f4f gui=NONE
+hi Todo           guibg=#451e1a guifg=#ca9219 gui=NONE
+hi Type           guibg=NONE    guifg=#2980b9 gui=NONE
+hi Underlined     guibg=NONE    guifg=#27ae60 gui=underline
 
 hi NonText       guibg=NONE    guifg=#7a7c7d gui=NONE
 
@@ -90,7 +92,7 @@ hi ColorColumn   guibg=#2a2e32 guifg=NONE    gui=NONE
 hi link Character      Special
 hi link Conditional    Statement
 hi link Debug          Special
-hi link Define         Type
+hi link Define         PreProc
 hi link Delimiter      Special
 hi link Exception      Statement
 hi link Float          Number
@@ -101,14 +103,11 @@ hi link Keyword        Statement
 hi link Label          Statement
 hi link Macro          PreProc
 hi link Number         Constant
-hi Operator guibg=NONE guifg=NONE    gui=bold
 hi link PreCondit      PreProc
 hi link Repeat         Statement
 hi link SpecialChar    Special
-hi link SpecialComment Special
 hi link StorageClass   Type
-hi link Structure      PreProc
-hi link Tag            Special
+hi link Structure      Type
 hi link Typedef        Type
 
 " html -----------------------------------------------------------------------
@@ -159,16 +158,17 @@ hi link markdownBlockquote        Special
 hi link markdownRule              Special
 
 " python ---------------------------------------------------------------------
-hi link pythonImport      PreProc
-hi link pythonFunction    Normal
-hi pythonBuiltinFunc guibg=NONE    guifg=#7f8c8d gui=NONE
+hi pythonBuiltin guibg=NONE guifg=#7f8c8d gui=NONE
+hi link pythonImport        PreProc
+hi link pythonFunction      Normal
+hi link pythonExceptions    PreProc
 
 " custom:
-hi link pythonDef Operator
-hi link pythonDocstring Comment
-hi link pythonSpecial   Boolean
-hi link pythonDecorator Type
-hi pythonMagic    guibg=NONE    guifg=#8e44ad gui=NONE
+hi pythonMagic    guibg=NONE guifg=#8e44ad gui=NONE
+hi link pythonDef            Operator
+hi link pythonDocstring      Comment
+hi link pythonSpecial        Boolean
+hi link pythonDecorator      Type
 
 " c / cpp --------------------------------------------------------------------
 
