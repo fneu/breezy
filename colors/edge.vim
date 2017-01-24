@@ -18,14 +18,14 @@ hi Comment       guibg=NONE    guifg=#7a7c7d gui=NONE
 hi Conceal       guibg=NONE    guifg=#cfcfc2 gui=NONE
 hi Constant      guibg=NONE    guifg=#f67400 gui=NONE
 hi Boolean       guibg=NONE    guifg=#27aeae gui=NONE
-hi Error         guibg=#4d1f24 guifg=NONE    gui=NONE
+hi Error         guibg=#4d1f24 guifg=#95da4c gui=bold
 hi Identifier    guibg=NONE    guifg=#8e44ad gui=NONE
 hi Ignore        guibg=NONE    guifg=NONE    gui=NONE
 hi PreProc       guibg=NONE    guifg=#27ae60 gui=NONE
 hi Special       guibg=NONE    guifg=#3daee9 gui=NONE
 hi Statement     guibg=NONE    guifg=#fdbc4b gui=bold
 hi String        guibg=NONE    guifg=#f44f4f gui=NONE
-hi Todo          guibg=NONE    guifg=NONE    gui=reverse
+hi Todo          guibg=#451e1a guifg=#ca9219 gui=NONE
 hi Type          guibg=NONE    guifg=#2980b9 gui=NONE
 hi Underlined    guibg=NONE    guifg=#27ae60 gui=underline
 
@@ -63,7 +63,8 @@ hi VisualNOS     guibg=NONE    guifg=NONE    gui=underline
 hi VertSplit     guibg=#2d5c76 guifg=#2d5c76 gui=NONE
 hi WildMenu      guibg=NONE    guifg=NONE    gui=NONE
 
-hi Function      guibg=NONE    guifg=#8e44ad gui=NONE
+" hi Function      guibg=NONE    guifg=#8e44ad gui=NONE
+hi Function      guibg=NONE    guifg=NONE gui=NONE
 hi SpecialKey    guibg=NONE    guifg=#7a7c7d gui=NONE
 hi Title         guibg=NONE    guifg=#ffffff gui=NONE
 
@@ -86,10 +87,10 @@ hi ColorColumn   guibg=#2a2e32 guifg=NONE    gui=NONE
 
 " general ---------------------------------------------------------------------
 
-hi link Character      Constant
+hi link Character      Special
 hi link Conditional    Statement
 hi link Debug          Special
-hi link Define         PreProc
+hi link Define         Type
 hi link Delimiter      Special
 hi link Exception      Statement
 hi link Float          Number
@@ -100,20 +101,20 @@ hi link Keyword        Statement
 hi link Label          Statement
 hi link Macro          PreProc
 hi link Number         Constant
-hi link Operator       Statement
+hi Operator guibg=NONE guifg=NONE    gui=bold
 hi link PreCondit      PreProc
 hi link Repeat         Statement
 hi link SpecialChar    Special
 hi link SpecialComment Special
 hi link StorageClass   Type
-hi link Structure      Type
+hi link Structure      PreProc
 hi link Tag            Special
 hi link Typedef        Type
 
 " html -----------------------------------------------------------------------
 
 hi link htmlEndTag         htmlTagName
-hi link htmlLink           Function
+hi link htmlLink           PreProc
 hi link htmlSpecialTagName htmlTagName
 hi link htmlTag            htmlTagName
 hi link htmlBold           Normal
@@ -158,22 +159,21 @@ hi link markdownBlockquote        Special
 hi link markdownRule              Special
 
 " python ---------------------------------------------------------------------
-
-hi pythonOperator  guibg=NONE guifg=NONE    gui=bold
-hi pythonBuiltin   guibg=NONE guifg=#7f8c8d gui=NONE
-
 hi link pythonImport      PreProc
-hi link pythonConditional pythonStatement
 hi link pythonFunction    Normal
-hi link pythonExceptions  PreProc
+hi pythonBuiltinFunc guibg=NONE    guifg=#7f8c8d gui=NONE
 
 " custom:
-hi pythonDef guibg=NONE guifg=NONE gui=bold
-
+hi link pythonDef Operator
 hi link pythonDocstring Comment
 hi link pythonSpecial   Boolean
 hi link pythonDecorator Type
-hi link pythonMagic     function
+hi pythonMagic    guibg=NONE    guifg=#8e44ad gui=NONE
+
+" c / cpp --------------------------------------------------------------------
+
+hi link cppStatement Operator
+hi link cIncluded cInclude
 
 " PLUGINS --------------------------------------------------------------------
 
