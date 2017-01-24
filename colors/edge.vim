@@ -66,8 +66,6 @@ hi VisualNOS     guibg=NONE    guifg=NONE    gui=underline
 hi VertSplit     guibg=#2d5c76 guifg=#2d5c76 gui=NONE
 hi WildMenu      guibg=NONE    guifg=NONE    gui=NONE
 
-" hi Function      guibg=NONE    guifg=#8e44ad gui=NONE
-hi Function      guibg=NONE    guifg=NONE gui=NONE
 hi SpecialKey    guibg=NONE    guifg=#7a7c7d gui=NONE
 hi Title         guibg=NONE    guifg=#ffffff gui=NONE
 
@@ -93,9 +91,10 @@ hi ColorColumn   guibg=#2a2e32 guifg=NONE    gui=NONE
 hi link Character      String
 hi link Conditional    Statement
 hi link Define         Type
-hi link Delimiter      Comment
+hi link Delimiter      Normal
 hi link Exception      Statement
 hi link Float          Number
+hi link Function       Normal
 hi link HelpCommand    Statement
 hi link HelpExample    Statement
 hi link Include        PreProc
