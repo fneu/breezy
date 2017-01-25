@@ -79,3 +79,9 @@ syn keyword pythonMagic __abs__ __add__ __aenter__ __aexit__ __aiter__ __and__ _
 
 The highlighting resulting from the above settings can be compared to the original here:
 ![vimVsKate]() TODO
+
+## Thanks
+
+I would like to thank the following people:
+    * The KDE Visual Design Group who created the "Breeze" theme
+    * [Romain Lafourcade](https://github.com/romainl), whose color scheme [Apprentice](https://github.com/romainl/Apprentice) provided me with an easy start and a solid base for realizing this
