@@ -8,7 +8,7 @@ since KDE Frameworks 5.23.
 
 This is what you get:
 
-![generalAppearance]() TODO
+![generalAppearance](http://imgur.com/eAqbuw1.png)
 
 ## Installation
 
@@ -32,7 +32,7 @@ terminals supporting true colors can be found
 
 ### Lightline Theme
 
-![lightline]() TODO
+![lightline](http://imgur.com/pkOdIWe.png)
 
 This colorscheme comes with a matching
 [lightline](https://github.com/itchyny/lightline.vim) theme.
@@ -79,10 +79,11 @@ syn keyword pythonMagic __abs__ __add__ __aenter__ __aexit__ __aiter__ __and__ _
 
 The highlighting resulting from the above settings can be compared to the original here:
 
-![vimVsKate]() TODO
+![vimVsKate](http://imgur.com/7zQecfA.png)
 
 ## Thanks
 
 I would like to thank the following people:
+
     * The KDE Visual Design Group who created the "Breeze" theme
     * [Romain Lafourcade](https://github.com/romainl), whose color scheme [Apprentice](https://github.com/romainl/Apprentice) provided me with an easy start and a solid base for realizing this
