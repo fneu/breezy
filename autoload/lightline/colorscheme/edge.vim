@@ -1,1 +1,0 @@
-/home/fabian/devel/dotfiles/lightline-edge.vim

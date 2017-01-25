@@ -1,6 +1,6 @@
-# edge colorscheme for vim
+# Breezy, a colorscheme for (neo)vim
 
-edge is a (neo)vim true color scheme inspired by the KDE breeze palette.
+Breezy is a (neo)vim true color scheme inspired by the KDE breeze palette.
 It uses the colors of the "Breeze Dark" color scheme shipped with KTextEditor
 since KDE Frameworks 5.23.
 
@@ -22,7 +22,7 @@ The minimal setup required to use this colorscheme is:
 ```vim
 set background=dark
 set termguicolors " if you want to run vim in a terminal
-colorscheme edge
+colorscheme breezy
 ```
 
 Please note that your terminal needs to support 24bit true color
@@ -41,13 +41,13 @@ to your `.vimrc` or `init.vim`:
 
 ```vim
 let g:lightline = {
-      \ 'colorscheme': 'wombat',
+      \ 'colorscheme': 'breezy',
       \ }
 ```
 
 ### Refined Python highlighting
 
-edge tries to closely mimic the syntax highlighting of python in KTextEditor.
+Breezy tries to closely mimic the syntax highlighting of python in KTextEditor.
 Some small efforts can be undertaken to accomplish an almost complete match:
 
 Enable all python highlighting options (exceptions, space errors, ...).
@@ -78,6 +78,7 @@ syn keyword pythonMagic __abs__ __add__ __aenter__ __aexit__ __aiter__ __and__ _
 ```
 
 The highlighting resulting from the above settings can be compared to the original here:
+
 ![vimVsKate]() TODO
 
 ## Thanks
