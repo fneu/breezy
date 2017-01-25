@@ -168,6 +168,7 @@ hi link pythonDef            Operator
 hi link pythonDocstring      Comment
 hi link pythonSpecial        Boolean
 hi link pythonDecorator      Type
+hi link pythonAs             PreProc
 
 " c / cpp --------------------------------------------------------------------
 
