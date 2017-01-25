@@ -92,6 +92,17 @@ The highlighting resulting from the above settings can be compared to the origin
 
 ![vimVsKate](http://imgur.com/7zQecfA.png)
 
+## Contributing
+
+As of now this is merely my personal attempt to make vim fit in with the KDE Breeze theme I use.
+But I haven't seen a similar theme yet and welcome any help with improving the theme in general
+or for specific languages.
+
+When supporting additional languages, I would generally like to stay reasonably close to the style
+provided by Kate/ KWrite. Feel free to open any issue or pull request, though. If you'd like better
+support for a particular language, a code example would be helpful to compare the highlighting
+style of this theme and KDE Breeze Dark.
+
 ## Thanks
 
 I would like to thank the following people:
