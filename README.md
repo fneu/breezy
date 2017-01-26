@@ -47,6 +47,8 @@ let g:lightline = {
 
 ### Airline Theme
 
+![airline](http://i.imgur.com/XKUb1ro.png)
+
 There is now also a modest theme for [airline](https://github.com/vim-airline/vim-airline)
 included with this colorscheme. To use it, install the airline plugin and add this to your
 `.vimrc` or `init.vim`:
