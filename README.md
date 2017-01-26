@@ -45,6 +45,16 @@ let g:lightline = {
       \ }
 ```
 
+### Airline Theme
+
+There is now also a modest theme for [airline](https://github.com/vim-airline/vim-airline)
+included with this colorscheme. To use it, install the airline plugin and add this to your
+`.vimrc` or `init.vim`:
+
+```vim
+let g:airline_theme='breezy'
+```
+
 ### Refined Python highlighting
 
 Breezy tries to closely mimic the syntax highlighting of python in KTextEditor.
