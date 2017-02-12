@@ -20,9 +20,20 @@ your `~/.vim` or `~/.config/nvim` directory.
 The minimal setup required to use this colorscheme is:
 
 ```vim
-set background=dark
+set background=light
 set termguicolors " if you want to run vim in a terminal
 colorscheme breezy
+```
+
+### Black background
+You can use original KDE breeze background color by setting 
+```vim
+set background=light
+```
+Otherwise for black background color set this to dark:
+
+```vim
+set background=dark
 ```
 
 Please note that your terminal needs to support 24bit true color

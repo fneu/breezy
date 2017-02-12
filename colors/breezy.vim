@@ -1,5 +1,3 @@
-set background=dark
-
 highlight clear
 if exists('syntax_on')
     syntax reset
@@ -7,7 +5,12 @@ endif
 
 let g:colors_name = 'breezy'
 
-hi Normal        guibg=#232629 guifg=#cfcfc2 gui=NONE
+if(&background == "dark")
+    hi Normal        guibg=#000000 guifg=#cfcfc2 gui=NONE
+else
+    hi Normal        guibg=#232629 guifg=#cfcfc2 gui=NONE
+endif
+
 hi LineNr        guibg=#31363b guifg=#7a7c7d gui=NONE
 hi FoldColumn    guibg=#31363b guifg=#7a7c7d gui=NONE
 hi Folded        guibg=#31363b guifg=#7a7c7d gui=NONE
