@@ -120,6 +120,12 @@ hi link htmlTagN    Operator
 hi link htmlArg     PreProc
 hi link htmlEvent   PreProc
 
+" CSS ------------------------------------------------------------------------
+
+hi link cssClassName  Type
+hi link cssProp Operator
+hi link cssDefinition Operator
+
 " diff msgs ------------------------------------------------------------------
 
 hi link diffBDiffer   WarningMsg
