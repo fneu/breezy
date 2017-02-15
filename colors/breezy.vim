@@ -111,15 +111,14 @@ hi link Typedef        Type
 
 " html -----------------------------------------------------------------------
 
-hi link htmlEndTag         htmlTagName
-hi link htmlLink           PreProc
-hi link htmlSpecialTagName htmlTagName
-hi link htmlTag            htmlTagName
-hi link htmlBold           Normal
-hi link htmlItalic         Normal
-hi link xmlTag             Statement
-hi link xmlTagName         Statement
-hi link xmlEndTag          Statement
+hi link htmlBold    Normal
+hi link htmlItalic  Normal
+hi link htmlTag     PreProc
+hi link htmlEndTag  PreProc
+hi link htmlTagName Operator
+hi link htmlTagN    Operator
+hi link htmlArg     PreProc
+hi link htmlEvent   PreProc
 
 " diff msgs ------------------------------------------------------------------
 
