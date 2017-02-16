@@ -98,8 +98,8 @@ hi link Function       Normal
 hi link HelpCommand    Statement
 hi link HelpExample    Statement
 hi link Include        PreProc
-hi link Keyword        Statement
-hi link Label          Statement
+hi link Keyword        Operator
+hi link Label          Type
 hi link Macro          PreProc
 hi link Number         Constant
 hi link PreCondit      PreProc
@@ -125,6 +125,16 @@ hi link htmlEvent   PreProc
 hi link cssClassName  Type
 hi link cssProp Operator
 hi link cssDefinition Operator
+
+" Typescript -----------------------------------------------------------------
+
+hi link typescriptImport PreProc
+hi link typescriptExport PreProc
+hi link typescriptDecorator Type
+hi link typescriptMemberVariableDeclaration Type
+hi link typescriptCall Type
+hi link typescriptTypeReference Normal
+hi link typescriptEndColons Normal
 
 " diff msgs ------------------------------------------------------------------
 
