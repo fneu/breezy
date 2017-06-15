@@ -8,7 +8,11 @@ let g:colors_name = 'breezy'
 if(&background == "dark")
     hi Normal        guibg=#000000 guifg=#cfcfc2 gui=NONE
 else
-    hi Normal        guibg=#232629 guifg=#cfcfc2 gui=NONE
+    if has("gui_running")
+        hi Normal        guibg=#232629 guifg=#cfcfc2 gui=NONE
+    else
+        hi Normal        guibg=#31363b guifg=#cfcfc2 gui=NONE
+    end
 endif
 
 hi LineNr        guibg=#31363b guifg=#7a7c7d gui=NONE
