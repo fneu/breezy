@@ -66,7 +66,7 @@ hi StatusLineNC  guibg=#31363b guifg=#7a7c7d gui=NONE
 hi Visual        guibg=#2d5c76 guifg=NONE    gui=NONE
 hi VisualNOS     guibg=NONE    guifg=NONE    gui=underline
 
-hi VertSplit     guibg=#2d5c76 guifg=#2d5c76 gui=NONE
+hi VertSplit     guibg=#31363b guifg=#31363b gui=NONE
 hi WildMenu      guibg=NONE    guifg=NONE    gui=NONE
 
 hi SpecialKey    guibg=NONE    guifg=#7a7c7d gui=NONE
