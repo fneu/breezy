@@ -4,6 +4,7 @@ if exists('syntax_on')
 endif
 
 let g:colors_name = 'breezy'
+let g:terminal_ansi_colors = ['#232629', '#ED1515', '#11D116', '#f67400', '#1D99F3', '#9B59B6', '#1ABC9C', '#cfcfc2', '#7F8C8D', '#C0392B', '#1CDC9A', '#FDBD4B', '#3daee9', '#8e44ad', '#16A085', '#FFFFFF']
 
 if(&background == "dark")
     hi Normal        guibg=#000000 guifg=#cfcfc2 gui=NONE cterm=NONE
@@ -111,6 +112,7 @@ hi link SpecialChar    Special
 hi link StorageClass   Type
 hi link Structure      Type
 hi link Typedef        Type
+hi link Terminal       Normal
 
 " html -----------------------------------------------------------------------
 
