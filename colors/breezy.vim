@@ -177,7 +177,7 @@ hi link markdownBlockquote        Special
 hi link markdownRule              Special
 
 " python ---------------------------------------------------------------------
-hi pythonBuiltin guibg=NONE guifg=#7f8c8d gui=NONE cterm=NONE
+hi pythonBuiltin guibg=NONE guifg=#609ca0 gui=NONE cterm=NONE
 hi link pythonImport        PreProc
 hi link pythonFunction      Normal
 hi link pythonExceptions    PreProc
@@ -197,5 +197,12 @@ hi link cIncluded cInclude
 
 " PLUGINS --------------------------------------------------------------------
 
-hi AleErrorSign   guibg=#31363b guifg=#f67400 gui=NONE cterm=NONE
-hi AleWarningSign guibg=#31363b guifg=#fdbc4b gui=NONE cterm=NONE
+hi ALEErrorSign               guibg=#31363b guifg=#f67400 gui=NONE cterm=NONE
+hi ALEWarningSign             guibg=#31363b guifg=#fdbc4b gui=NONE cterm=NONE
+highlight ALEError            guibg=#35292d
+highlight ALEWarning          guibg=#382d24
+hi ALEVirtualTextError        guibg=NONE    guifg=#735961 gui=italic cterm=italic
+hi ALEVirtualTextWarning      guibg=NONE    guifg=#775f4c gui=italic cterm=italic
+hi ALEVirtualTextInfo         guibg=NONE    guifg=#775f4c gui=italic cterm=italic
+hi ALEVirtualTextStyleError   guibg=NONE    guifg=#775f4c gui=italic cterm=italic
+hi ALEVirtualTextStyleWarning guibg=NONE    guifg=#775f4c gui=italic cterm=italic
