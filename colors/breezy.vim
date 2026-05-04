@@ -150,8 +150,8 @@ hi link diffIdentical WarningMsg
 hi link diffIsA       WarningMsg
 hi link diffNoEOL     WarningMsg
 hi link diffOnly      WarningMsg
-hi link diffRemoved   WarningMsg
-hi link diffAdded     String
+hi link diffRemoved   DiffDelete
+hi link diffAdded     DiffAdd
 
 " markdown -------------------------------------------------------------------
 hi markdownH1         guibg=NONE guifg=#8e44ad gui=bold cterm=bold
